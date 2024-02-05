@@ -7,7 +7,7 @@ Zhiwei Li, Shaofen Xu, Qihao Weng. Beyond Clouds: Reconstructing Cloud-Covered A
 
 ![](.\imgs\Pakistan_2022_flood.png)
 
-Reconstruction results of the proposed method for seamless time series flood extent mapping over Sindh, Pakistan in 2022 flood event.
+Example reconstruction results of the proposed method for seamless time series flood extent mapping over Sindh, Pakistan in 2022 flood event.
 
 ![](.\imgs\floodwater&daily precipitation.png)
 
