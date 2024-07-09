@@ -3,7 +3,7 @@ Earth observation satellites provide data for continuous and extensive flood mon
 
 **Relevant Papers:**
 
-[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](https://zhiweili.net/assets/pdf/Conference Papers/2024_IGARSS_Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series.pdf) [**[Poster]**](https://zhiweili.net/assets/pdf/Poster/2024_IGARSS_Poster_Flood Mapping_Zhiwei Li.pdf)
+[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](https://zhiweili.net/assets/pdf/Conference Papers/2024_IGARSS_Can_we_reconstruct_cloud-covered_flooding_areas_in_harmonized_Landsat_and_Sentinel-2_image_time_series.pdf) [**[Poster]**](https://zhiweili.net/assets/pdf/Poster/2024_IGARSS_Poster_Flood_Mapping_Zhiwei_Li.pdf)
 
 [**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Reconstructing Cloud-Covered Areas for Seamless Flood Mapping Using Harmonized Landsat and Sentinel-2 Data. *ISPRS Journal of Photogrammetry and Remote Sensing*. (In Revision)
 
