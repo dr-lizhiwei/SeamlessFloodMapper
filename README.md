@@ -1,7 +1,15 @@
-# SeamlessFloodMapper: Seamless Flood Mapping Using Harmonized Landsat and Sentinel-2 Data
-The datasets and experimental results in the submitted manuscript below will be made available upon its acceptance.
+# SeamlessFloodMapper: Seamless Flood Mapping Using Harmonized Landsat and Sentinel-2 Image Time Series
+Earth observation satellites provide data for continuous and extensive flood monitoring, yet limitations exist when using optical images due to cloud cover. Gap-filling methods have been developed for reconstructing cloud-covered areas in water maps. However, the existing methods are not tailored for and validated in cloudy and rainy flooding scenarios with rapid water extent changes and limited clear-sky observations. To overcome these limitations, we developed a novel method for seamless time series flood mapping under varying cloud cover conditions.
 
-**Zhiwei Li, Shaofen Xu, Qihao Weng. Beyond Clouds: Reconstructing Cloud-Covered Areas for Seamless Flood Mapping Using Harmonized Landsat and Sentinel-2 Data. 2024.** 
+**Relevant Papers:**
+
+[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](../assets/pdf/Conference Papers/2024_IGARSS_Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series.pdf) [**[Poster]**](../assets/pdf/Poster/2024_IGARSS_Poster_Flood Mapping_Zhiwei Li.pdf)
+
+[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Reconstructing Cloud-Covered Areas for Seamless Flood Mapping Using Harmonized Landsat and Sentinel-2 Data. *ISPRS Journal of Photogrammetry and Remote Sensing*. (In Revision)
+
+**Datasets**:
+
+The datasets of this study will be made available soon.
 
 <img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/imgs/Pakistan_2022_flood.png" style="zoom:50%;" />
 
