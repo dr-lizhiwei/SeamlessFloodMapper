@@ -15,7 +15,7 @@ Earth observation satellites provide data for continuous and extensive flood mon
 
 Source code for seamless time series flood mapping using harmonized Landsat and Sentinel-2 images is available now. 
 
-*The required pretrained model and test data to run the code are available at [[Link]](https://drive.google.com/drive/folders/1c57gKA1L6q0v36gaPfBn0a3XnN1cYjwF?usp=sharing).
+*The required pretrained model to run the code are available at [[Link]](https://drive.google.com/drive/folders/1c57gKA1L6q0v36gaPfBn0a3XnN1cYjwF?usp=sharing).
 
 **The test data containing only one HLS image is used only for the cloud reconstruction step. Download the full datasets below, which include HLS image time series and cloud masks, to test the whole method introduced in our paper.
 
