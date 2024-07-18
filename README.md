@@ -17,7 +17,12 @@ Source code for seamless time series flood mapping using harmonized Landsat and 
 
 *The required pretrained model and test data to run the code are available at [[Link]](https://drive.google.com/drive/folders/1c57gKA1L6q0v36gaPfBn0a3XnN1cYjwF?usp=sharing).
 
-** The test data containing only one HLS image is used only for the cloud reconstruction step. Download the full datasets below, which include HLS image time series and cloud masks, to test the whole method introduced in our paper.
+**The test data containing only one HLS image is used only for the cloud reconstruction step. Download the full datasets below, which include HLS image time series and cloud masks, to test the whole method introduced in our paper.
+
+Authors:
+Shaofen Xu, xv.sfen@gmail.com, The Hong Kong Polytechnic University
+Zhiwei Li, dr.lizhiwei@gmail.com, The Hong Kong Polytechnic University
+Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use of the code and datasets.
 
 <br>
 
