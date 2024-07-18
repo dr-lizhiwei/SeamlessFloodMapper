@@ -7,7 +7,7 @@ Earth observation satellites provide data for continuous and extensive flood mon
 
 [**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](https://zhiweili.net/assets/pdf/Conference%20Papers/2024_IGARSS_Can%20we%20reconstruct%20cloud-covered%20flooding%20areas%20in%20harmonized%20Landsat%20and%20Sentinel-2%20image%20time%20series.pdf) [**[Poster]**](https://zhiweili.net/assets/pdf/Poster/2024_IGARSS_Poster_Flood%20Mapping_Zhiwei%20Li.pdf)
 
-<img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/2024_IGARSS_Poster_Flood Mapping_Preview.png" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/2024_IGARSS_Poster_Flood Mapping_Preview.png" style="zoom:100%;" />
 
 <br>
 
@@ -30,7 +30,7 @@ Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use o
 
 Datasets including HLS image time series and cloud masks over the four study sites are available now. [[Link]](https://drive.google.com/drive/folders/1c57gKA1L6q0v36gaPfBn0a3XnN1cYjwF?usp=sharing)
 
-<img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/Datasets_StudyArea.png" style="zoom:70%;" />
+<img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/Datasets_StudyArea.png" style="zoom:100%;" />
 
 <br>
 
