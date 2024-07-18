@@ -1,7 +1,7 @@
 Authors:
-Shaofen Xu, xv.sfen@gmail.com  
-Zhiwei Li, dr.lizhiwei@gmail.com
-The Hong Kong Polytechnic University
+Shaofen Xu, xv.sfen@gmail.com, The Hong Kong Polytechnic University
+Zhiwei Li, dr.lizhiwei@gmail.com, The Hong Kong Polytechnic University
+Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use of the code and datasets.
 
 #################################
 Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. ISPRS Journal of Photogrammetry and Remote Sensing. (In Revision)
