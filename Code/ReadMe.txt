@@ -11,10 +11,10 @@ Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered floodi
 
 
 ########## Setup ################
-1. Download the code, and required pretrained model and test data.
-2. Download the HLS image of cloud-covered water map to be reconstructed and the corresponding GSW Water Occurrence data. Make sure all data have the same georeference and projection.
-2. Set the parameters in the parse_args function in _Flood_Mapping_HLS.py as nedded.
-3. Run _Flood_Mapping_HLS.py
+1. Download the code, and the required pretrained model and test data.
+2. Download the HLS image of the cloud-covered water map to be reconstructed and the corresponding GSW Water Occurrence data. Make sure all data have the same georeference and projection.
+3. Set the parameters in the parse_args function in _Flood_Mapping_HLS.py as needed.
+4. Run _Flood_Mapping_HLS.py
 #################################
 
 
