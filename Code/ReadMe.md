@@ -1,6 +1,8 @@
 **Contributors:**<br>
 Shaofen Xu, xv.sfen@gmail.com, The Hong Kong Polytechnic University
+
 Zhiwei Li, dr.lizhiwei@gmail.com, The Hong Kong Polytechnic University
+
 Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use of the code and datasets.
 
 <br>
@@ -44,8 +46,7 @@ Depending on the format of input data, consider the following settings:
 
 <br>
 
-**Key Packages:**<br>
-torch<br>
+**Key Packages:**torch<br>
 mmcv<br>
 mmseg<br>
 gdal<br>
