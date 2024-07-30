@@ -1,20 +1,16 @@
-**Contributors:**
+**Contributors:**<br>
 Shaofen Xu, xv.sfen@gmail.com, The Hong Kong Polytechnic University
 Zhiwei Li, dr.lizhiwei@gmail.com, The Hong Kong Polytechnic University
 Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use of the code and datasets.
 
-
-
-
+<br>
 
 **Relevant publications:**
 Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*. (Accepted)
 
 Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, IEEE International Geoscience and Remote Sensing Symposium (IGARSS). pp. 3686-3688. Athens, Greece.
 
-
-
-
+<br>
 
 **Setup**: 
 
@@ -23,9 +19,7 @@ Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered floodi
 3. Set the parameters in the parse_args function in _Flood_Mapping_HLS.py as needed.
 4. Run _Flood_Mapping_HLS.py
 
-
-
-
+<br>
 
 **Notes:**
 
@@ -48,23 +42,21 @@ Depending on the format of input data, consider the following settings:
 
   SensorType: S (Sentinel), L (Landsat)
 
-
-
-
+<br>
 
 **Key Packages:**
-torch
-mmcv
-mmseg
-gdal
-rasterio
-tifffile
-argparse
-os
-datetime
-cv2
-PIL
-shutil
-numpy
-collections
-pandas
+torch<br>
+mmcv<br>
+mmseg<br>
+gdal<br>
+rasterio<br>
+tifffile<br>
+argparse<br>
+os<br>
+datetime<br>
+cv2<br>
+PIL<br>
+shutil<br>
+numpy<br>
+collections<br>
+pandas<br>
