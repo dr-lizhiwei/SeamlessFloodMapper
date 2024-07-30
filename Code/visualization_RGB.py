@@ -84,7 +84,7 @@ def renderflood(gray):
     rgb_image = np.zeros(shape=(*gray.shape, 3))
     rgb_image[:, :, :] = color_dict["grey"]
 
-    # +3 0为非水 1为洪水，2,5为云，3，4永久水
+    # +3 0 no water 1 flood 2,5 cloud 3 no 4 water
     pixel1 = np.where(gray == 1)
     pixel2 = np.where(gray == 2)
     pixel3 = np.where(gray == 3)
@@ -92,7 +92,7 @@ def renderflood(gray):
     pixel5 = np.where(gray == 5)
     rgb_image[pixel1[0], pixel1[1], :] = color_dict["deepred"]
     rgb_image[pixel2[0], pixel2[1], :] = color_dict["white"]
-    rgb_image[pixel3[0], pixel3[1], :] = color_dict["deepblue"]
+    # rgb_image[pixel3[0], pixel3[1], :] = color_dict["deepblue"]
     rgb_image[pixel4[0], pixel4[1], :] = color_dict["deepblue"]
     rgb_image[pixel5[0], pixel5[1], :] = color_dict["white"]
 

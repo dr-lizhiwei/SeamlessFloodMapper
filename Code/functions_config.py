@@ -1,6 +1,6 @@
-'''
-turn HLS name into calender
-'''
+"""
+turn HLS name into calendar
+"""
 import os
 from osgeo import gdal
 import datetime
@@ -112,20 +112,28 @@ def F2Bpath(Cloud_path,Binary_path):
         cloud_dir = os.path.join(Cloud_path, file)
 
         if not os.path.isfile(cloud_dir):
-            print(f"{cloud_dir} doesn't exist")
-            continue
+            print(cloud_dir + " doesn't exist")
         else:
-            cloud_img = gdal.Open(cloud_dir).ReadAsArray()
+            cloud = gdal.Open(cloud_dir)
+            cloud_img = cloud.ReadAsArray()
+            # # cloud_resz = cv2.resize(cloud_img, (height, width))
+            #     print(cloud_resz.shape)
             Fbi = np.zeros_like(cloud_img)
+            zero_pix = np.where(cloud_img[:, :] == 0)  # 在FMask掩膜中代表无数据的区域
 
-            # 0 representing no data in the FMask band
-            zero_pix = np.where(cloud_img[:,:]==0)
-
-            cloud_pix = np.where((cloud_img >= 64) & ((cloud_img & 0b10) | (cloud_img & 0b1000)))
-
+            Xs = []
+            Ys = []
+            for i in range(cloud_img.shape[0]):
+                for j in range(cloud_img.shape[1]):
+                    if cloud_img[i, j] >= 64:
+                        bincloud = bin(cloud_img[i, j])
+                        if str(bincloud)[-2] == '1' or str(bincloud)[-4] == '1':  # or str(bincloud)[-3] == '1':
+                            Xs.append(i)
+                            Ys.append(j)
+            cloud_pix = (np.array(Xs), np.array(Ys))
             Fbi[cloud_pix] = 1
             Fbi[zero_pix] = 1
-            cv2.imwrite(bina_path,Fbi)
+            cv2.imwrite(bina_path, Fbi)
 
 def TIFFmask(TIFFpath,Binary_path,Mask_Folder,maskpath):
     files = [file for file in os.listdir(TIFFpath) if file.endswith('.tif')]

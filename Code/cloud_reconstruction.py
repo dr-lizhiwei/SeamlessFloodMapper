@@ -1,5 +1,5 @@
 '''
-cloud remval and water reconstruction
+reconstruction of cloud-covered areas in water maps
 '''
 
 import numpy as np
@@ -8,6 +8,7 @@ import cv2
 from osgeo import gdal
 from collections import Counter
 import pandas as pd
+from PIL import Image
 
 
 def WR(Water_Occur_removal, Cloud_Removal, fileName):
@@ -145,7 +146,7 @@ def water_Rate(seg_img, water_img, rt):
             return 0
 
 
-def Water_Reconstruction_Gradually(Cloud_Removal, Water_Occur_removal, Water_Occur_path, rate_path,
+def cloud_reconstruction_Gradually(Cloud_Removal, Water_Occur_removal, Water_Occur_path, rate_path,
                                    Water_reconstruction):
     # set threshold for rate
     widths = []
@@ -347,8 +348,11 @@ def water_reconstruction_Globle_Rate(Cloud_Removal, Water_Occur_removal, Water_O
     Water_Occur = gdal.Open(Water_Occur_path).ReadAsArray()
     validpix = np.where(Water_Occur != 128)
     Water_Occur = Water_Occur[min(validpix[0]):max(validpix[0]), min(validpix[1]):max(validpix[1])]
-    Water_Occur = np.where(Water_Occur == 128, 0, Water_Occur).astype(float)
-    Water_Occur = cv2.resize(Water_Occur, (height, width))
+    Water_Occur = np.where(Water_Occur == 128, 0, Water_Occur)
+    img = Image.fromarray(Water_Occur)
+    img = img.resize((height, width))
+    Water_Occur = np.array(img)
+    # Water_Occur = cv2.resize(Water_Occur, (height, width))
 
     cfiles = os.listdir(Cloud_Removal)
     col = []
@@ -415,7 +419,10 @@ def water_reconstruction_Globle_Local(Cloud_Removal, Water_Occur_removal, Water_
     validpix = np.where((Water_Occur >= 0) & (Water_Occur <= 100))
     Water_Occur = Water_Occur[min(validpix[0]):max(validpix[0]), min(validpix[1]):max(validpix[1])]
     Water_Occur = np.where(Water_Occur == 128, 0, Water_Occur)
-    Water_Occur = cv2.resize(Water_Occur, (height, width))
+    img = Image.fromarray(Water_Occur)
+    img = img.resize((height, width))
+    Water_Occur = np.array(img)
+    # Water_Occur = cv2.resize(Water_Occur, (height, width))
 
     NoWaterPixs = np.where(Water_Occur == 0)
 

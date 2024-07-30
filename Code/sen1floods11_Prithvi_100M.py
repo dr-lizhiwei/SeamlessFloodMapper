@@ -15,7 +15,6 @@ custom_imports = dict(imports=["geospatial_fm"])
 # TO BE DEFINED BY USER: Data root to sen1floods11 downloaded dataset
 data_root = "E:/_Flood_Inundation_Mapping/sen1floods11/"
 # data_root = r"D:\_FloodContest\dataset\_TrainDataset"
-# data_root = r"D:\CloudSen12_high"
 
 dataset_type = "GeospatialDataset"
 num_classes = 2

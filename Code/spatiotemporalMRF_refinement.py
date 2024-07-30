@@ -30,7 +30,6 @@ def Reclass(image, filter = False):
         Water_Rcns = np.where((image == 3) | (image == 254) | (image == 7) | (image == 253))  #
         NoWater_Rcns = np.where(image[:, :] == 6)
 
-
         image[Water_Rcns] = 3
         image[NoWater_Rcns] = 1
     else:
@@ -38,8 +37,6 @@ def Reclass(image, filter = False):
         NoWater_Rcns = np.where(image[:, :] == 10)
         Water_org = np.where(image[:, :] == 1)
         NoWater_org = np.where((image == 0) | (image == 2) | (image == 4) | (image == 6))
-
-
 
         # image[Water_org] = 10
         image[Water_org] = 4
@@ -74,7 +71,6 @@ def TmprlSptlFilter(imagegroup, Consist_path):
         weight += imagegroup[i][0]
     weightimage = sumimage / weight
 
-
     shp = targetimage.shape
     for i in range(4, shp[0] - 5):
         for j in range(4, shp[1] - 5):
@@ -95,6 +91,7 @@ def TmprlSptlFilter(imagegroup, Consist_path):
             else:
                 print(targetimage[i][j])
     cv2.imwrite(Consist_path, targetimage)
+
 
 def GroupFilter(period, Rcns_dir, Consist_path, ):
     widths = []
@@ -151,6 +148,8 @@ def cnsstncy_filter(Rcns_dir, Consist_path,floodDay ):
                 period.append(img)
             else:
                 period2.append(img)
-    GroupFilter(period, Rcns_dir, Consist_path)
-    GroupFilter(period2, Rcns_dir, Consist_path)
+    if len(period)>0:
+        GroupFilter(period, Rcns_dir, Consist_path)
+    if len(period2) > 0:
+        GroupFilter(period2, Rcns_dir, Consist_path)
 
