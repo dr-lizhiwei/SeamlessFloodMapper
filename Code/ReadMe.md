@@ -14,7 +14,7 @@ Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered floodi
 
 <br>
 
-**Setup**: 
+**Setup**: <br>
 
 1. Download the code, and the required pretrained model and test data.
 2. Download the HLS image of the cloud-covered water map to be reconstructed and the corresponding GSW Water Occurrence data. Make sure all data have the same georeference and projection.
@@ -23,7 +23,7 @@ Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered floodi
 
 <br>
 
-**Notes:**
+**Notes:**<br>
 
 **1. Preparing Data**
 
@@ -46,7 +46,9 @@ Depending on the format of input data, consider the following settings:
 
 <br>
 
-**Key Packages:**torch<br>
+**Key Packages:**<br>
+
+torch<br>
 mmcv<br>
 mmseg<br>
 gdal<br>
