@@ -5,7 +5,7 @@ Send an email to Shaofen Xu and copy Dr. Zhiwei Li for any issues with the use o
 
 <br>
 
-**Relevant publications:**
+**Relevant publications:**<br>
 Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*. (Accepted)
 
 Zhiwei Li, Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, IEEE International Geoscience and Remote Sensing Symposium (IGARSS). pp. 3686-3688. Athens, Greece.
@@ -44,7 +44,7 @@ Depending on the format of input data, consider the following settings:
 
 <br>
 
-**Key Packages:**
+**Key Packages:**<br>
 torch<br>
 mmcv<br>
 mmseg<br>
