@@ -3,9 +3,9 @@ Earth observation satellites provide data for continuous and extensive flood mon
 
 **📝Publications:**
 
-[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*. (Accepted)
+[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, 216, 185-199. [**[PDF]**](../assets/pdf/2020.4_ISPRS P&RS_Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning.pdf)
 
-[**Zhiwei Li**](https://zhiweili.net/), Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](https://zhiweili.net/assets/pdf/Conference%20Papers/2024_IGARSS_Can%20we%20reconstruct%20cloud-covered%20flooding%20areas%20in%20harmonized%20Landsat%20and%20Sentinel-2%20image%20time%20series.pdf) [**[Poster]**](https://zhiweili.net/assets/pdf/Poster/2024_IGARSS_Poster_Flood%20Mapping_Zhiwei%20Li.pdf)
+**[Zhiwei Li](https://zhiweili.net/),** Shaofen Xu, Qihao Weng, 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE* *International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686-3688. Athens, Greece. [**[PDF]**](https://zhiweili.net/assets/pdf/Conference%20Papers/2024_IGARSS_Can%20we%20reconstruct%20cloud-covered%20flooding%20areas%20in%20harmonized%20Landsat%20and%20Sentinel-2%20image%20time%20series.pdf) [**[Poster]**](https://zhiweili.net/assets/pdf/Poster/2024_IGARSS_Poster_Flood%20Mapping_Zhiwei%20Li.pdf)
 
 <img src="https://raw.githubusercontent.com/dr-lizhiwei/SeamlessFloodMapper/main/2024_IGARSS_Poster_Flood Mapping_Preview.png" style="zoom:100%;" />
 
